@@ -1,0 +1,21 @@
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity 0.8.0;
+contract addition
+{
+    uint256 firstNo ;
+    uint256 secondNo ;
+    function firstNoSet(uint256 x) public
+    {
+        firstNo = x;
+    }
+    function secondNoSet(uint256 y) public
+    {
+        secondNo = y;
+    }
+    function add() view public returns (uint256)
+    {
+        uint256 Sum = firstNo + secondNo ;
+        return Sum;
+    }
+}

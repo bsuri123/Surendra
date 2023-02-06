@@ -1,0 +1,18 @@
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity 0.8.0; 
+contract subtraction {
+    uint256 firstNo;
+    uint256 secondNo;
+function firstNoSet(uint256 x) public {
+    firstNo = x;
+
+}
+function SecondNoSet(uint256 y) public {
+    secondNo = y;
+}
+function sub () public view returns (uint256){
+    uint256 Sub = firstNo-secondNo;
+    return Sub;
+}
+}
