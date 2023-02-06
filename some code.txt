@@ -1,0 +1,16 @@
+pragma solidity ^0.8.0;
+contract operators{
+ uint public sum=1;
+ function multfive() public returns(uint){
+     sum*=5;
+     return sum;
+ }
+function threeDigit(uint _num1)public pure returns(bool){
+  return _num1>=100 ||_num1 <=999;    
+}
+function isOdd(uint _num1)public pure returns(bool){
+    bool value;
+    value=(_num1%2)==0;
+    return value;
+}
+}
