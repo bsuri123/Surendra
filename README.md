@@ -1,2 +1,0 @@
-# Surendra
-My first repository
